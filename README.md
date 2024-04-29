@@ -39,7 +39,7 @@ If you prefer using Yarn package manager, you can follow the steps below to run 
 
 ## 🛠️Technologies Used
 - React.js
-- CSS
+- Tailwind CSS
 - Google Fonts
 
 ## 👽Contributions
