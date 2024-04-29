@@ -6,3 +6,10 @@
 #  Sticky Note 
 
 - This is a sticky note application where users can create, edit, and delete sticky notes.
+
+## Features
+- Create new sticky notes with customizable colors.
+- Edit existing sticky notes.
+- Delete sticky notes.
+- Organize sticky notes by dragging and dropping.
+- Responsive design for mobile and desktop.
