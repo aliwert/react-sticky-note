@@ -15,6 +15,9 @@
 - Responsive design for mobile and desktop.
 
 ## How to Use ❓
+1. Click on the relevant note.
+2. After clicking, write the note you want.
+3. After you finish your operations, click on the gray area on the screen to save your note.
 
 ## 👻Usage
 
