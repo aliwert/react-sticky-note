@@ -7,7 +7,7 @@
 
 - This is a sticky note application where users can create, edit, and delete sticky notes.
 
-## Features
+## 🤖Features
 - Create new sticky notes with customizable colors.
 - Edit existing sticky notes.
 - Delete sticky notes.
