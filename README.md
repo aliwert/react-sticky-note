@@ -14,6 +14,8 @@
 - Organize sticky notes by dragging and dropping.
 - Responsive design for mobile and desktop.
 
+## How to Use ❓
+
 ## 👻Usage
 
 1. Clone this repository to your local machine.
