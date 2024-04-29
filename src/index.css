@@ -1,62 +1,63 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
-* {
-  @apply m-0 p-0;
-  /* box-sizing: border-box; */
-}
-body {
-  @apply bg-cover;
-  background: url(../public/Billboard.bg.jpg) no-repeat fixed center;
-}
-div {
-  @apply w-[70%] text-white mx-auto my-0 p-[5px];
-  font-family: "Lato";
-}
-h4 {
-  @apply font-[bold] text-[2rem];
-}
-p {
-  @apply text-[2rem];
-  font-family: "Reenie Beanie";
-}
-ul,
-li {
-  list-style: none;
-}
-ul {
-  @apply flex flex-wrap justify-around;
-}
-ul li a {
-  @apply no-underline text-black block h-[13em] w-[15em] shadow-[5px_5px_7px_rgba(33,33,33,0.7)] transition-transform duration-[0.15s] ease-linear p-[1em];
-  background: #ffc;
-}
-ul li {
-  @apply m-[1em];
-}
-ul li:nth-child(odd) a {
-  @apply rotate-[-4deg] relative top-[5px];
-}
-ul li:nth-child(even) a {
-  @apply rotate-[4deg] relative top-[5px] relative top-[5px];
-}
-ul li:nth-child(3n) a {
-  @apply -rotate-3 relative top-[-5px] relative top-[-5px];
-}
-ul li:nth-child(5n) a {
-  @apply rotate-[5deg] relative -top-2.5;
-}
-ul li a:hover,
-ul li a:focus {
-  @apply shadow-[10px_10px_7px_rgba(0,0,0,0.7)] relative z-[5] scale-125;
-}
-ul li:nth-child(even) a {
-  background: #cfc;
-}
-ul li:nth-child(3n) a {
-  background: #ccf;
+
+@layer base {
+  * {
+    @apply m-0 p-0;
+    /* box-sizing: border-box; */
+  }
+  body {
+    @apply bg-cover;
+    background: url(../public/Billboard.bg.jpg) no-repeat fixed center;
+  }
+  div {
+    @apply w-[70%] text-white mx-auto my-0 p-[5px];
+    font-family: "Lato";
+  }
+  h4 {
+    @apply font-[bold] text-[2rem];
+  }
+  p {
+    @apply text-[2rem];
+    font-family: "Reenie Beanie";
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  ul {
+    @apply flex flex-wrap justify-around;
+  }
+  ul li a {
+    @apply no-underline text-black block h-[13em] w-[15em] shadow-[5px_5px_7px_rgba(33,33,33,0.7)] transition-transform duration-[0.15s] ease-linear p-[1em];
+    background: #ffc;
+  }
+  ul li {
+    @apply m-[1em];
+  }
+  ul li:nth-child(odd) a {
+    @apply rotate-[-4deg] relative top-[5px];
+  }
+  ul li:nth-child(even) a {
+    @apply rotate-[4deg] relative top-[5px] relative top-[5px];
+  }
+  ul li:nth-child(3n) a {
+    @apply -rotate-3 relative top-[-5px] relative top-[-5px];
+  }
+  ul li:nth-child(5n) a {
+    @apply rotate-[5deg] relative -top-2.5;
+  }
+  ul li a:hover,
+  ul li a:focus {
+    @apply shadow-[10px_10px_7px_rgba(0,0,0,0.7)] relative z-[5] scale-125;
+  }
+  ul li:nth-child(even) a {
+    background: #cfc;
+  }
+  ul li:nth-child(3n) a {
+    background: #ccf;
+  }
 }
